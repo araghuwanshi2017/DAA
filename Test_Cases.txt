@@ -1,0 +1,101 @@
+Test case on which we get the output;
+
+Input Format :-
+-->> First line of input contains three integers nV , nW and  E number of vertices in each part of the graph and Total number of edges in the graph .
+-->> Second line of input contains K_Edges number of atmost edges to cover all the vertices of V.
+-->> Third line contains All the vertices in V
+-->> Fourth Lines contains  Vertices in W
+-->> Next E lines contains edges between each part of the graph
+
+
+Output Format :- 
+-->> Contains YES If possible to from a tree with atomst k Edges
+-->> Otherwise NO
+
+					// ******************** Test_Cases **************************
+
+// *******
+Test_Case 1 :-
+Input ::-
+3 4 6
+6
+1 2 3 
+4 5 6 7 
+1 4
+2 5
+3 6
+1 7
+2 7
+3 7
+
+
+Output ::-
+YES
+
+// *******
+
+// *******
+Test_Case 2 :-
+Input ::-
+4 4 9
+6
+1 2 3 4 
+5 6 7 8 
+1 5
+1 8
+2 6
+2 7
+2 8
+3 6
+3 8
+4 7
+4 8
+
+Output :-
+YES
+
+// *******
+
+// *******
+
+Test_Case 3:-
+Input ::-
+5 6 30
+5
+1 2 3 4 5 
+6 7 8 9 10 11
+1 6
+1 7
+1 8
+1 9
+1 10
+1 11
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+3 6
+3 7
+3 8
+3 9
+3 10
+3 11
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+5 6
+5 7
+5 8
+5 9
+5 10
+5 11
+
+Output :-
+YES
+
+// ************************************
